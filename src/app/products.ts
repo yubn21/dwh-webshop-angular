@@ -26,7 +26,7 @@ export const products = [
   },
   {
     id: 4,
-    name: 'SimCorp Logo Unmbrella',
+    name: 'SimCorp Logo Umbrella',
     price: 45,
     description: 'A black umbrella with SimCorp Logo'
   }
