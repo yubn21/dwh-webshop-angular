@@ -9,6 +9,7 @@ import { FormBuilder } from '@angular/forms';
 })
 export class CartComponent {
   items = this.cartService.getItems();
+  priceInTotal = this.items.reduce((sum, product) => sum + product.price, 0);
 
   checkoutForm = this.formBuilder.group({
     name: '',

@@ -1,10 +1,12 @@
 <h2>Cart:</h2>
 
-
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency: 'DKK' }}</span>
 </div>
+
+<h2>Price in total: {{ priceInTotal }} kr</h2>
+
 
 <h2>Deliver to:</h2>
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
