@@ -29,10 +29,12 @@ h1 {
 
 h2 {
   font-size: 20px;
+  color: #3a6897;
 }
 
 h3 {
   font-size: 16px;
+  color: black;
 }
 
 h1, h2, h3 {
@@ -139,6 +141,13 @@ app-top-bar h1 {
   margin-bottom: 8px;
   border-radius: 2px;
   background-color: #EEEEEE;
+}
+
+/* Images */
+.product-image {
+  width: 200px;
+  height: 200px;
+  display: flex;
 }
 
 
