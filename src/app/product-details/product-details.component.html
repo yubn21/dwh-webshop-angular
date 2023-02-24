@@ -8,12 +8,5 @@
   <h4>Price: {{ product.price | currency :'DKK' }} kr</h4>
   <p>{{ product.description }}</p>
 
-  <a [routerLink]="['/']">
-    <div class="button fancy-button">  
-      <i class="material-icons">keyboard_backspace</i>
-    </div>
-  </a>
-
-
   <button type="button" (click)="addToCart(product)">Add to cart</button>
 </div>

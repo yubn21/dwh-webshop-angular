@@ -83,7 +83,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #3a6897;
+  background-color: #8db641;
   color: white;
   border: none;
 }
@@ -102,11 +102,11 @@ label {
 
 .fancy-button {
   background-color: white;
-  color: #1976d2;
+  color: #8db641;
 }
 
 .fancy-button i.material-icons {
-  color: #1976d2;
+  color:  #8db641;
   padding-right: 4px;
 }
 
@@ -115,7 +115,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #3a6897;
+  background-color: #8db641;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -126,6 +126,21 @@ app-top-bar {
 app-top-bar h1 {
   color: white;
   margin: 0;
+}
+
+/* Bottom Bar */
+app-bottom-bar {
+  position: fixed;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  background-color:  #8db641;
+  padding: 16px;
+}
+
+app-bottom-bar h3 {
+  color: white;
+  margin: 10px;
 }
 
 /* Checkout Cart, Shipping Prices */
@@ -143,13 +158,24 @@ app-top-bar h1 {
   background-color: #EEEEEE;
 }
 
-/* Images */
+/* Products */
 .product-image {
   width: 200px;
   height: 200px;
   display: flex;
 }
 
+.product-image-preview{
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+.product-item {
+  padding: 5%;
+  margin: 5%;
+  width: 100%;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
