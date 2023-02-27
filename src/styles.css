@@ -17,7 +17,7 @@ body {
   flex-direction: row;
 }
 
-router-outlet + *  {
+router-outlet + * {
   padding: 0 16px;
 }
 
@@ -37,7 +37,9 @@ h3 {
   color: black;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: lighter;
 }
 
@@ -64,7 +66,7 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
 }
 
 label {
@@ -76,7 +78,8 @@ label {
 }
 
 /* Button */
-.button, button {
+.button,
+button {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
@@ -88,12 +91,14 @@ label {
   border: none;
 }
 
-.button:hover, button:hover {
+.button:hover,
+button:hover {
   opacity: 0.8;
   font-weight: normal;
 }
 
-.button:disabled, button:disabled {
+.button:disabled,
+button:disabled {
   opacity: 0.5;
   cursor: auto;
 }
@@ -106,7 +111,7 @@ label {
 }
 
 .fancy-button i.material-icons {
-  color:  #8db641;
+  color: #8db641;
   padding-right: 4px;
 }
 
@@ -131,11 +136,15 @@ app-top-bar h1 {
 /* Bottom Bar */
 app-bottom-bar {
   position: fixed;
-  bottom: 0; 
+  bottom: 0;
   left: 0;
   width: 100%;
-  background-color:  #8db641;
+  background-color: #8db641;
   padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 app-bottom-bar h3 {
@@ -145,7 +154,8 @@ app-bottom-bar h3 {
 
 /* Checkout Cart, Shipping Prices */
 
-.cart-item, .shipping-item {
+.cart-item,
+.shipping-item {
   width: 100%;
   min-width: 400px;
   max-width: 450px;
@@ -155,7 +165,7 @@ app-bottom-bar h3 {
   padding: 16px 32px;
   margin-bottom: 8px;
   border-radius: 2px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 /* Products */
@@ -165,7 +175,7 @@ app-bottom-bar h3 {
   display: flex;
 }
 
-.product-image-preview{
+.product-image-preview {
   width: 100px;
   height: 100px;
   display: flex;
